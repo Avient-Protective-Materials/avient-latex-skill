@@ -1,0 +1,61 @@
+# ZIP fallback (or legacy ignored clone), including branding and examples.
+/.avient-latex/
+# Upstream archives retained by a browser/manual ZIP download.
+/avient-latex-class*.zip
+# Do NOT ignore /avient-latex-class/ or .gitmodules: track the submodule link.
+# Legacy flattened installation (do not replace existing authored files).
+/avient.cls
+/brand/
+# Existing root-level copy of the upstream logo.
+/avient-logo.pdf
+
+# All generated artifacts, including PDFs, belong in these directories.
+/build/
+/out/
+
+# Auxiliary files from editors that compile beside the source.
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+*.dvi
+*.nav
+*.snm
+*.vrb
+*.loa
+*.lol
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+*.glsdefs
+*.acn
+*.acr
+*.alg
+*.ist
+*.maf
+*.mtc*
+*.nlo
+*.nls
+*.nlg
+*.thm
+*.loe
+*.synctex(busy)
+*.synctex.gz(busy)
+/_minted*/
+
+# Do not ignore *.pdf, *.tex, *.bib, or images globally: they can be inputs.
+# If compiling a report outside build/, add its exact output path here.

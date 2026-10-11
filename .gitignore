@@ -1,0 +1,29 @@
+# The skill repository must never vendor the class or branding.
+/.avient-latex/
+/avient-latex-class*.zip
+/avient.cls
+/brand/
+/avient-logo.pdf
+
+# Keep validation/build artifacts out of the published skill.
+/build/
+/out/
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+*.dvi
+*.nav
+*.snm
+*.vrb
